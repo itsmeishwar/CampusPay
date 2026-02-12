@@ -1,0 +1,28 @@
+{
+  "name": "campus-fintech-wallet",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "version": "1.0.0",
+  "description": "Campus Fintech Wallet - Digital payment system for college campuses",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "fintech",
+    "wallet",
+    "campus",
+    "payment"
+  ],
+  "author": "Campus Fintech Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
