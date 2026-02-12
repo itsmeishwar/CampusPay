@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
     logout()
     navigate('/login')
   }
-
+// navebar content fot the easy to use 
   return (
     <nav className="navbar">
       <div className="container">
