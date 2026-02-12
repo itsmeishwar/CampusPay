@@ -1,7 +1,3 @@
-// this is the vwnder student
-
-
-
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
@@ -11,7 +7,7 @@ interface Wallet {
   balance: number
   createdAt: string
 }
-
+// logic
 const StudentDashboard: React.FC = () => {
   const [wallet, setWallet] = useState<Wallet | null>(null)
   const [addAmount, setAddAmount] = useState('')
