@@ -59,5 +59,5 @@ const Navbar: React.FC = () => {
     </nav>
   )
 }
-
+// reusable navbar comp
 export default Navbar
